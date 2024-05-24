@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <title>Programación I | Parcial 1 | ANSELMI, FRANCO</title>
+
+    <link rel="shortcut icon" href="logo.ico"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    
+<header>
+    <div class="div-header">
+        <img src="img/logo.png" alt="Logo de Spotify">
+    </div>
+</header>
+
+<section class="section-1">
+    <div class="banner">
+        <div class="opacidad degradado">
+            <div class="div-h1">
+                <h1>Ahora podés llevar tu música al siguiente nivel</h1>
+            </div>
+            <div class="div-botones">
+                <button class="boton" onclick="Cargar();"><span>Cargar disco</span></button>
+                <button class="boton" onclick="Mostrar();"><span>Mostrar discos</span></button>
+                <button class="boton" onclick="MostrarDiscoPorCodigo();"><span>Buscar disco</span></button>
+                <button class="boton" onclick="BorrarDiscos();"><span>Borrar discos</span></button>
+                
+            </div>
+            <div id="cantidad-discos"></div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="section-2" id="info"></div>
+</section>
+
+
+<footer>
+    <div>
+        <div class="div-logo-footer">
+            <img src="img/logo.png" alt="Logo de Spotify">
+        </div>
+        <div>
+            <ul>
+                <li>Anselmi, Franco Javier</li>
+                <li>
+                    <a href="mailto:franco.anselmi@davinci.edu.ar?subject=P1%20-%20Consulta%20"
+                       target="_blank">franco.anselmi@davinci.edu.ar</a>
+                </li>
+                <li>Programación 1</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="parcial.js"></script>
+</body>
+</html>
